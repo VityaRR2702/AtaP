@@ -1,0 +1,4 @@
+import math
+number = float(input("Введіть число: "))
+floor_value = math.floor(number)
+print(f"Найбільше ціле число, менше або рівне {number}: {floor_value}")
