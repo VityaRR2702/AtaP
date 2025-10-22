@@ -1,0 +1,4 @@
+import math
+degrees = float(input("Введіть кут у градусах: "))
+radians = math.radians(degrees)
+print(f"Кут у радіанах: {radians}")
